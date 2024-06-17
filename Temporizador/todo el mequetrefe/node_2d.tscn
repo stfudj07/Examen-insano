@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://mq2jhsun5yo"]
+
+[ext_resource type="Texture2D" uid="uid://xo46nr0kicej" path="res://assets/timer.png" id="1_17wet"]
+[ext_resource type="FontFile" uid="uid://bttn4sbekg567" path="res://assets/alarm clock.ttf" id="2_02eye"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Timer" type="Sprite2D" parent="."]
+position = Vector2(590, 330.125)
+scale = Vector2(0.527569, 0.509926)
+texture = ExtResource("1_17wet")
+
+[node name="Minutero" type="Timer" parent="."]
+
+[node name="STSP" type="Button" parent="."]
+offset_left = 681.0
+offset_top = 441.0
+offset_right = 801.0
+offset_bottom = 555.0
+
+[node name="CLEAR" type="Button" parent="."]
+offset_left = 893.0
+offset_top = 356.0
+offset_right = 909.0
+offset_bottom = 378.0
+
+[node name="SEGUNDERO" type="Button" parent="."]
+offset_left = 517.0
+offset_top = 449.0
+offset_right = 618.0
+offset_bottom = 549.0
+
+[node name="MINUTERO" type="Button" parent="."]
+offset_left = 367.0
+offset_top = 449.0
+offset_right = 468.0
+offset_bottom = 547.0
+
+[node name="Timer2" type="Label" parent="."]
+offset_left = 368.0
+offset_top = 192.0
+offset_right = 899.0
+offset_bottom = 619.0
+theme_override_fonts/font = ExtResource("2_02eye")
+theme_override_font_sizes/font_size = 150
+text = "00:00
+
+"
